@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-random_name"
-  spec.version       = "0.1.0"
+  spec.version       = "0.2.0"
   spec.authors       = ["gouf"]
   spec.email         = ["innocent.zero@gmail.com"]
   spec.description   = "generate random name"

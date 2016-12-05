@@ -15,7 +15,9 @@ module Lita
       route(/random[_]?name/, :random_name)
 
       def random_name(response)
-        response.reply /[:rand_name:]/.gen
+        3.times do
+          response.reply /[:rand_name:]/.gen
+        end
       end
 
       Lita.register_handler(self)
